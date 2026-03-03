@@ -2,6 +2,15 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## IMPORTANT: Docs-First Requirement
+
+**Before generating any code**, you MUST first read and refer to the relevant file(s) in the `/docs` directory. This is a hard requirement — do not write or suggest code without first consulting the applicable documentation.
+
+Current docs files:
+- `docs/ui.md` — UI patterns, component conventions, and design guidelines
+
+If no relevant doc exists for the task, proceed with the project conventions documented in this file.
+
 ## Commands
 
 ```bash
